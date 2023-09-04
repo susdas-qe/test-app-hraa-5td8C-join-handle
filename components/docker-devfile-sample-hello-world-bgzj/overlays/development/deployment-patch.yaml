@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-bgzj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-pbym-tenant/test-app-hraa/docker-devfile-sample-hello-world-bgzj@sha256:2d53d52e00f70c7038f3b273f1b74d77d0ee25df711c50f56c4c5dd72baab741
+        name: container-image
+        resources: {}
+status: {}
