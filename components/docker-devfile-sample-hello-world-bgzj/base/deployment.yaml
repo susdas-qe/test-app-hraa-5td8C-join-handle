@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-hello-world-bgzj
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-pbym-tenant/test-app-hraa/docker-devfile-sample-hello-world-bgzj@sha256:2d53d52e00f70c7038f3b273f1b74d77d0ee25df711c50f56c4c5dd72baab741
         imagePullPolicy: Always
         name: container-image
         ports:
